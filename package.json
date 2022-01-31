@@ -1,0 +1,50 @@
+{
+  "name": "react-gist",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABenassi87/react-gist.git"
+  },
+  "author": "Alfre Benassi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABenassi87/react-gist/issues"
+  },
+  "homepage": "https://github.com/ABenassi87/react-gist#readme",
+  "peerDependencies": {
+    "prismjs": "^1.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "prettier": "^2.5.1",
+    "rollup": "^2.66.1",
+    "rollup-plugin-sass": "^1.2.10",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "npm",
+    "gist"
+  ]
+}
