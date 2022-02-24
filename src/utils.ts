@@ -36,3 +36,5 @@ export async function getGistsDetails(username: string): Promise<GistDetails[]> 
     throw new Error(response.statusText);
   }
 }
+
+// TEST
